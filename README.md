@@ -182,6 +182,16 @@ telco-churn-analytics/
 - Logistic Regression successfully predicts customer churn patterns.
 - Predictive analytics can support proactive customer retention strategies.
 
+## Results
+
+- Dataset: 7,043 IBM Telco customers, with an overall churn rate of 26.5%
+- Churn rate by contract type: month-to-month 42.7%, one-year 11.3%, two-year 2.8%
+- Month-to-month customers churned at about 15 times the rate of two-year customers
+- An Excel PivotTable summarizing customers, average CLTV and churn rate by contract type is in `telco_churn_pivot.xlsx`
+
+![Dashboard overview](./visualizations/dashboard_overview.png)
+![Churn by contract](./visualizations/dashboard_churn_by_contract.png)
+
 ---
 
 ## Technologies Used
